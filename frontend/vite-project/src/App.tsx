@@ -1,8 +1,7 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Signup from './pages/Signup';
-import Login from './pages/Login';
-import Welcome from './pages/Welcome';
+import Signup from '../src/pages/Signup';
+import Login from '../src/pages/Login';
+import Welcome from '../src/pages/Welcome';
 
 function App() {
   const token = localStorage.getItem("token");
